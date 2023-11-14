@@ -1,0 +1,19 @@
+.malhaar-logo img{
+  position: absolute;
+ top: 15%;
+ /* align the logo of the background according to the  */
+ /* left: 37%; */
+ width: 22rem;
+ height: 22rem;
+
+  
+}
+
+.malhaar-text{
+  color: aqua;
+  position: absolute;
+  top: 70%;
+  left: 41%;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
