@@ -8,16 +8,16 @@
 body{
   background-image: url("../../assests/Bgg.png");
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container-div{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 .container-div b{
   color: #fff;

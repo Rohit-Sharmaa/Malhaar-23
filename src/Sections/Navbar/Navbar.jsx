@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 import "./navbar.css";
 const Navbar = () => {
   return (
+    <div>
     <nav className="navigation">
       <div class="container-div">
         <b>
@@ -16,13 +18,13 @@ const Navbar = () => {
         <div className="nav-content">
           <ul>
             <li>
-              <a href="">EVENTS</a>
+            <Link to = "/event">EVENTS</Link>
             </li>
             <li>
-              <a href="">SPONSORS</a>
+              <Link to = "/sponsors">SPONSORS</Link>
             </li>
             <li>
-              <a href="">TEAM</a>
+              <Link to = "/team">TEAM</Link>
             </li>
             <li>
               <a href="">ABOUT</a>
@@ -34,6 +36,7 @@ const Navbar = () => {
         </button>
       </div>
     </nav>
+    </div>
   );
 };
 
