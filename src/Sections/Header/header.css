@@ -2,89 +2,72 @@
   overflow: hidden;
 }
 .malhaar-logo img{
-  /* position: absolute; */
+  position: absolute;
  top: 11%;
- margin-left: 37%;
+ margin-left: 35%;
  width: 25rem;
  height: 25rem;
- margin-top: 5rem;
-}
-.main{
-  align-content: center;
 }
 .malhaar-text{
   color: aqua;
   position: absolute;
   bottom: 17%;
-  margin-left: 38.5%;
+  margin-left: 38%;
   font-size: 2rem;
-  margin-top: 1rem;
-  text-align: center;
-  z-index: 2;
-  
+  margin-top: 2rem;
 }
 
 h3.timer{
-  z-index: 2;
-  margin-top:6%;
+  position: absolute;
+  margin-top:-7%;
+  margin-left: 30%;
   color: white;
-  font-size: 2rem;
-  font-weight: 800;
-  text-align: center;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 @media screen and (max-width: 900px) {
   .malhaar-logo img{
-  margin-left: 12rem;
-  width: 20rem;
-  height: 20rem;
-  margin-right: 12rem;
+  margin-left: 20%;
+  width: 32rem;
+  height: 32rem;
   }
 
-  .malhaar-text{  
-    font-size: 2rem;
-    margin-right: 3rem;
-    margin-left: 10rem;
-    text-align: center;
-    
+  .malhaar-text{
+    bottom: 32%;
+    margin-left: 25%;
+    font-size: 2.5rem;
   }
 
   h3.timer{
-    text-align: center;
-    margin-top: 8rem;
+    position: absolute;
+    margin-top:-40%;
+   margin-left: 23%;
     color: white;
     font-size: 1.3rem;
   }
   
 }
 
-@media screen and (max-width: 438px) {
+@media screen and (max-width: 550px) {
   .malhaar-logo img{
-    
-margin-left: 1vh;
+    top: 15%;
+margin-left: 5%;
 width: 21rem;
 height: 21rem;
-
 
   }
 
   .malhaar-text{
-   
-    font-size: 2rem;
-    
-   
-    
-    margin-right: 3rem;
-    margin-left: 3rem;
-    
+    bottom: 30%;
+    margin-left: 18%;
+    font-size: 1.7rem;
   }
   h3.timer{
     position: absolute;
-    margin-top: 15vh;
-    margin-left: 2%;
+    margin-top:-50%;
+    margin-left: 12%;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
   }
  
 }
