@@ -27,7 +27,7 @@ Object.keys(timeLeft).forEach((interval) => {
 
 
   return (
-    <div> 
+    <div className="main"> 
      
 <div className="malhaar-logo">
   <img  src={Logo} alt="logo" />
