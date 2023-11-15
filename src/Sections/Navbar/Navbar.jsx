@@ -1,18 +1,42 @@
 import React, { useState } from "react";
-
 import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx";
 
 import "./navbar.css";
 const Navbar = () => {
+  const[isExpanded , setIsExpanded] = useState(false);
+
+  const toggleClass = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <nav className="navigation">
-      <div class="container-div">
+      <div className={isExpanded ? "container-div  mobile-i" : "container-div"}>
         <b>
           <a href="">MALHAAR</a>
         </b>
-        <button className="hamburgerMenu">
-          <GiHamburgerMenu />
-</button>
+        <button className={isExpanded ? "hamburgerMenu close" : "hamburgerMenu"} 
+        onClick={toggleClass}>
+        {isExpanded ? <RxCross1 /> : <GiHamburgerMenu />}
+        </button>
+
+        <div id="ham" className={isExpanded ? "items expanded" : "items"}>
+          <ul>
+            <li>
+              <a href="">EVENTS</a>
+            </li>
+            <li>
+              <a href="">SPONSORS</a>
+            </li>
+            <li>
+              <a href="">TEAM</a>
+            </li>
+            <li>
+              <a href="">ABOUT</a>
+            </li>
+          </ul>
+        </div>
         <div className="nav-content">
           <ul>
             <li>
