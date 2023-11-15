@@ -12,11 +12,11 @@ const Navbar = () => {
 
   return (
     <nav className="navigation">
-      <div class="container-div">
+      <div className={isExpanded ? "container-div  mobile-i" : "container-div"}>
         <b>
           <a href="">MALHAAR</a>
         </b>
-        <button className="hamburgerMenu" 
+        <button className={isExpanded ? "hamburgerMenu close" : "hamburgerMenu"} 
         onClick={toggleClass}>
         {isExpanded ? <RxCross1 /> : <GiHamburgerMenu />}
         </button>
