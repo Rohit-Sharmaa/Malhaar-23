@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+body {
+   font-family: 'Poppins', sans-serif;
+   margin: 50px;
+   padding: 100px;
+   background-image: url(Background.jpeg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+header {
+   background-color: none;
+   color: white;
+   font-weight: 800;
+   font-size: 3vw;
+   text-align: center;
+   justify-content: center;
+   padding: 20px;
+}
+
+.events-list {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 20px 20px;
+   justify-content: center;
+   align-items: center;
+   
+}
+.container{
+   height: 100%;
+   width: auto;
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 20px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+
+.card {
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   padding: 5px;
+   
+}
+
+.card a {
+   display: block;
+   width: 100%;
+}
+
+.card img {
+
+   width: 70%;
+   height: 70%;
+   border-radius: 50px;
+   object-fit: cover;
+   padding: 30%;
+
+}
+
+
+
+.card .info {
+   padding: 15px;
+   flex-grow: 1;
+} 
+
+
+
+/* Media Queries */
+/* @media only screen and (max-width: 768px) {
+   .events-list {
+       grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .events-list {
+       grid-template-columns: repeat(1, 1fr);
+   }
+} */

@@ -1,15 +1,18 @@
 import React from 'react'
-import Navbar from './Sections/Navbar/Navbar'
+import Navbar from './Sections/Navbar/Navbar';
+import Header from './Sections/Header/Header';
+import { Event } from 'react-toastify/dist/core/eventManager';
 
-import Header from './Sections/Header/Header'
 
 const App = () => {
   return (
-   <main>
-  <Navbar/>
-  <Header/>
-   </main>
+      <>
+      <Navbar/>
+      <Header/>
+      <Event/>
+      
+      </>
   )
 }
 
-export default App
+export default App;
