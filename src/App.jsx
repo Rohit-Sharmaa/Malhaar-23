@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Sections/Navbar/Navbar'
-
+import './App.css'
 import Header from './Sections/Header/Header'
 
 const App = () => {
