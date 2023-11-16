@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from 'react-router-dom'
 
 import "./navbar.css";
 const Navbar = () => {
@@ -24,7 +25,7 @@ const Navbar = () => {
         <div id="ham" className={isExpanded ? "items expanded" : "items"}>
           <ul>
             <li>
-              <a href="">EVENTS</a>
+              <a href="https://www.cricbuzz.com/">EVENTS</a>
             </li>
             <li>
               <a href="">SPONSORS</a>
@@ -40,7 +41,7 @@ const Navbar = () => {
         <div className="nav-content">
           <ul>
             <li>
-              <a href="">EVENTS</a>
+              <Link to="/event">EVENTS</Link>
             </li>
             <li>
               <a href="">SPONSORS</a>
