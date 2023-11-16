@@ -9,6 +9,8 @@ body{
   background-image: url("../../assests/Background.png");
   background-size: cover;
   overflow: hidden;
+  min-height: 100vh;
+  line-height: 100px;  
 }
 
 .container-div{

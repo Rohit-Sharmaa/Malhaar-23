@@ -24,7 +24,7 @@ const Navbar = () => {
         <div id="ham" className={isExpanded ? "items expanded" : "items"}>
           <ul>
             <li>
-              <a href="">EVENTS</a>
+              <a href="https://www.cricbuzz.com/">EVENTS</a>
             </li>
             <li>
               <a href="">SPONSORS</a>

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './event.css'
 
 function event() {
@@ -18,72 +19,72 @@ function event() {
     
             <div className="card">
                 <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 2">
+                    <img src="event1.jpeg" alt="Event 2"/>
                 </a>
                 <div className="info"></div>
             </div>
             <div className="card">
                 <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 1">
-                </a>
-                <div className="info"></div>
-            </div>
-    
-            <div className="card">
-                <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 2">
-                </a>
-                <div className="info"></div>
-            </div>
-            <div className="card">
-                <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 1">
+                    <img src="event1.jpeg" alt="Event 1"/>
                 </a>
                 <div className="info"></div>
             </div>
     
             <div className="card">
                 <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 2">
+                    <img src="event1.jpeg" alt="Event 2"/>
                 </a>
                 <div className="info"></div>
             </div>
             <div className="card">
                 <a href="#" target="_blank">
-                    <img src="event1.jpeg "alt="Event 1">
-                </a>
-                <div className="info"></div>
-            </div>
-    
-            <div className="card">
-                <a href="#" target="_blank">
-                    <img src="event1.jpeg"alt="Event 2">
-                </a>
-                <div className="info"></div>
-            </div>
-            <div className="card">
-                <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 1">
+                    <img src="event1.jpeg" alt="Event 1"/>
                 </a>
                 <div className="info"></div>
             </div>
     
             <div className="card">
                 <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 2">
+                    <img src="event1.jpeg" alt="Event 2"/>
                 </a>
                 <div className="info"></div>
             </div>
             <div className="card">
                 <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 1">
+                    <img src="event1.jpeg "alt="Event 1"/>
                 </a>
                 <div className="info"></div>
             </div>
     
             <div className="card">
                 <a href="#" target="_blank">
-                    <img src="event1.jpeg" alt="Event 2">
+                    <img src="event1.jpeg"alt="Event 2"/>
+                </a>
+                <div className="info"></div>
+            </div>
+            <div className="card">
+                <a href="#" target="_blank">
+                    <img src="event1.jpeg" alt="Event 1"/>
+                </a>
+                <div className="info"></div>
+            </div>
+    
+            <div className="card">
+                <a href="#" target="_blank">
+                    <img src="event1.jpeg" alt="Event 2"/>
+                </a>
+                <div className="info"></div>
+            </div>
+            <div className="card">
+                <a href="#" target="_blank">
+                    <img src="event1.jpeg" alt="Event 1"/>
+                </a>
+                <div className="info"></div>
+            </div>
+    
+            <div className="card">
+                <a href="#" target="_blank">
+                    <img src="event1.jpeg" alt="Event 2"/>
                 </a>
                 <div className="info"></div>
             </div>
@@ -95,4 +96,4 @@ function event() {
   )
 }
 
-export default event;
+export default event; 

@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-body {
+
+/* body {
    font-family: 'Poppins', sans-serif;
-   margin: 50px;
-   padding: 100px;
-   background-image: url(Background.jpeg);
+   /* margin: 50px;
+   padding: 100px; */
+   /* background-image: url(Background.jpeg);
    background-size: cover;
    background-attachment: fixed;
-}
+    */
+
 
 header {
    background-color: none;
@@ -16,13 +18,14 @@ header {
    text-align: center;
    justify-content: center;
    padding: 20px;
+   line-height: 700px;
 }
 
 .events-list {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
-   padding: 20px 20px;
+   padding: 20px 50px;
    justify-content: center;
    align-items: center;
    
@@ -77,17 +80,3 @@ header {
    flex-grow: 1;
 } 
 
-
-
-/* Media Queries */
-/* @media only screen and (max-width: 768px) {
-   .events-list {
-       grid-template-columns: repeat(2, 1fr);
-   }
-}
-
-@media only screen and (max-width: 800px) {
-   .events-list {
-       grid-template-columns: repeat(1, 1fr);
-   }
-} */
